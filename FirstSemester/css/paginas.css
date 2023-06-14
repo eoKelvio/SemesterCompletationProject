@@ -33,12 +33,28 @@
    }
    
    #imagens{
-       height: 307px;
+       height: 230px;
        padding-left: 8px;
        padding-top: 8px;
        padding-bottom: 8px;
    }
+
+   #primeirosite{
+    height: 307px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
    
    .sensorsom{
     width: 630px;
    }
+   
+   #fimdepagina{
+    width: auto;
+   }
+
+   .row{
+    align-items: center;
+   }
+

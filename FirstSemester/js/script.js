@@ -17,5 +17,7 @@ var videos = document.querySelectorAll("#videos");
       video.addEventListener("mouseout", function() {
         pauseVideo.call(video);
         resetVideo.call(video);
+
+        video.muted = true;
       });
     });
