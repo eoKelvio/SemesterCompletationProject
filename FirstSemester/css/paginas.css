@@ -1,8 +1,12 @@
-.row {
-    display: flex;
-    flex-direction: column;
-   }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
    
+    .text-center, div{
+        gap: 30px;
+    }
+
    .card {
        display: flex;
        flex-direction: row;
@@ -14,7 +18,9 @@
    }
    
    .card-body{
-       width: 40%;
+       flex:1;
+       width: auto;
+       height: auto;
    }
    
    .mb-4{
@@ -28,22 +34,18 @@
    #videos{
        height: 293px;
        width: auto;
-       padding-left: 8px;
-       padding-top: 8px;
+       margin: 10px;
    }
    
    #imagens{
        height: 230px;
-       padding-left: 8px;
-       padding-top: 8px;
-       padding-bottom: 8px;
+       margin: 10px;
+      
    }
 
    #imagensaumentadas{
     height: 307px;
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    margin: 10px;
 }
    
    .sensorsom{
@@ -58,3 +60,22 @@
     align-items: center;
    }
 
+   .exbanco{
+    height: 330px;
+    width: 330px;
+   }
+
+  #caixaImagem{
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+  }
+
+  #caixaImagem:hover{
+    transform: scale(1.2); 
+    padding-right: 1.5vw;
+  }
+  
+  
+
+
+  
