@@ -14,14 +14,14 @@ var videos = document.querySelectorAll("#videos");
 
     videos.forEach(function(video) {
       video.addEventListener("mouseover", playVideo);
+      video.muted = true;
       video.addEventListener("mouseout", function() {
         pauseVideo.call(video);
         resetVideo.call(video);
-
-        video.muted = true;
       });
     });
 
+  
 
 
 
